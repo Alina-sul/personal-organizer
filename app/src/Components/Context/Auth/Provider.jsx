@@ -3,12 +3,14 @@ import Context from './Context';
 import axios from 'axios';
 
 function Provider(props) {
+    const [auth,setAuth] = useState(false);
 
     return (
         <Context.Provider
             value = {
                 {
-
+                    auth: auth,
+                    setAuth: setAuth
                 }
             }
         >

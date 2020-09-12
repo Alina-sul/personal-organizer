@@ -59,6 +59,7 @@ const connectEnsureLogin = require('connect-ensure-login');
 app.post('/login', (req, res, next) => {
   passport.authenticate('local',
       (err, user, info) => {
+      console.log('req',req,'user',user);
         if (err) {
           return next(err);
         }
