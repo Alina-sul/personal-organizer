@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from './Components/Routes';
+import { Provider as AuthProvider } from './Components/Context/Auth'
+import { Provider as DataProvider } from './Components/Context/Data'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <AuthProvider>
+            <DataProvider>
+                <Routes/>
+            </DataProvider>
+        </AuthProvider>
+      </Router>
   );
 }
 
