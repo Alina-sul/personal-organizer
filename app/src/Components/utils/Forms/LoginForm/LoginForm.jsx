@@ -12,7 +12,7 @@ function LoginForm(props) {
     const context = useContext(Context);
     const test = () =>
      axios
-        .post('http://localhost:3030/register', {
+        .post('http://localhost:3030/login', {
             username: username,
             password: pass
         })
@@ -61,3 +61,5 @@ function LoginForm(props) {
 }
 
 export default LoginForm;
+
+

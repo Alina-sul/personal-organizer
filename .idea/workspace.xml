@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/images/po001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/images/po01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/App.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/Components/Context/Data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,18 +46,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/public/images" />
       <recent name="$PROJECT_DIR$/app/src/Components/Context/Data" />
       <recent name="$PROJECT_DIR$/app/src/Components/Context" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/public/images" />
+      <recent name="$PROJECT_DIR$/app/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms" />
-      <recent name="$PROJECT_DIR$/app/src/Components/Context/Auth" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -83,7 +90,7 @@
       <workItem from="1600027963972" duration="4200000" />
       <workItem from="1600370471265" duration="12609000" />
       <workItem from="1600437638211" duration="3041000" />
-      <workItem from="1600539629921" duration="582000" />
+      <workItem from="1600539629921" duration="6988000" />
     </task>
     <servers />
   </component>
@@ -91,26 +98,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600034590864">
-      <screen x="0" y="23" width="1024" height="617" />
+    <state x="0" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600542486349">
+      <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="0" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1024.617@0.23.1024.617" timestamp="1600034590864" />
-    <state x="250" y="131" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599780276220">
-      <screen x="0" y="23" width="1024" height="617" />
+    <state x="0" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1600.877@0.23.1600.877" timestamp="1600542486349" />
+    <state x="391" y="177" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600545972522">
+      <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="250" y="131" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1024.617@0.23.1024.617" timestamp="1599780276220" />
+    <state x="391" y="177" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1600.877@0.23.1600.877" timestamp="1600545972522" />
     <state x="111" y="23" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1599780564419">
       <screen x="0" y="23" width="1024" height="617" />
     </state>
     <state x="111" y="23" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1024.617@0.23.1024.617" timestamp="1599780564419" />
-    <state x="250" y="85" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599843907590">
-      <screen x="0" y="23" width="1024" height="617" />
+    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600544556400">
+      <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="250" y="85" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1024.617@0.23.1024.617" timestamp="1599843907590" />
-    <state x="86" y="111" key="EditFileWatcherDialog" timestamp="1599923367452">
-      <screen x="0" y="23" width="1024" height="617" />
+    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877@0.23.1600.877" timestamp="1600544556400" />
+    <state x="134" y="148" key="EditFileWatcherDialog" timestamp="1600544590006">
+      <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="86" y="111" key="EditFileWatcherDialog/0.23.1024.617@0.23.1024.617" timestamp="1599923367452" />
+    <state x="134" y="148" key="EditFileWatcherDialog/0.23.1600.877@0.23.1600.877" timestamp="1600544590006" />
     <state width="824" height="123" key="GridCell.Tab.0.bottom" timestamp="1599780393074">
       <screen x="0" y="23" width="1024" height="617" />
     </state>
@@ -127,6 +138,10 @@
       <screen x="0" y="23" width="1024" height="617" />
     </state>
     <state width="824" height="123" key="GridCell.Tab.0.right/0.23.1024.617@0.23.1024.617" timestamp="1599780393073" />
+    <state x="0" y="101" width="1497" height="799" key="SettingsEditor" timestamp="1600542446121">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="0" y="101" width="1497" height="799" key="SettingsEditor/0.23.1600.877@0.23.1600.877" timestamp="1600542446121" />
     <state x="0" y="39" key="com.intellij.ide.util.TipDialog" timestamp="1600539673815">
       <screen x="0" y="23" width="1600" height="877" />
     </state>

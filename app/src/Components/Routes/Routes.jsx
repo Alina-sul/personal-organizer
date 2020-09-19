@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import {Switch, Route, Redirect} from "react-router-dom";
 import Login from "../pages/Login";
 import {Context} from '../Context/Auth';
+import Welcome from '../pages/Welcome';
 import Dashboard from "../pages/Dashboard";
 
 function Routes() {
@@ -11,14 +12,13 @@ function Routes() {
     return (
         <>
             <Switch>
-                <Route path="/login">
+                <Route key="login" path="/login">
                     <Login/>
                 </Route>
-                <Route exact path="/">
-                    <Redirect to={authRedirect} />
-                    <Dashboard />
+                <Route key="/" exact path="/">
+                    <Welcome />
                 </Route>
-                <Route path="*">
+                <Route key="*" path="*">
                     <Redirect to={authRedirect} />
                 </Route>
             </Switch>
