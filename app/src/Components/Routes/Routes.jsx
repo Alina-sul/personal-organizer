@@ -6,7 +6,8 @@ import Dashboard from "../pages/Dashboard";
 
 function Routes() {
     const context = useContext(Context);
-    console.log(context.auth)
+    const authRedirect = context.auth ? '/' : 'login';
+
     return (
         <>
             <Switch>
@@ -14,16 +15,11 @@ function Routes() {
                     <Login/>
                 </Route>
                 <Route exact path="/">
-                    {
-                        // need to reduce the code later
-                        context.auth ? <Redirect to="/" /> : <Redirect to="/login" />
-                    }
+                    <Redirect to={authRedirect} />
                     <Dashboard />
                 </Route>
                 <Route path="*">
-                    {
-                        context.auth ? <Redirect to="/" /> : <Redirect to="/login" />
-                    }
+                    <Redirect to={authRedirect} />
                 </Route>
             </Switch>
         </>

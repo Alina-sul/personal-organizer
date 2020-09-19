@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginForm from '../../utils/LoginForm';
+import LoginForm from '../../utils/Forms/LoginForm';
 import './styles.sass';
 
 
