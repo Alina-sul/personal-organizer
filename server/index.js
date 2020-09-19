@@ -30,7 +30,8 @@ app.use(passport.session());
 // Configure passport-local to use account model for authentication
 passport.use(new LocalStrategy({
     usernameField: 'username',
-    passwordField: 'password'
+    passwordField: 'password',
+    test:'test'
 }, Account.authenticate()));
 
 passport.serializeUser(function(user, done) {

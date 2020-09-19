@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/account.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alinasul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alinasul.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/LoginForm/LoginForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/LoginForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +45,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms" />
-      <recent name="$PROJECT_DIR$/app/src/Components/Context/Auth" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/Components/Context/Data" />
       <recent name="$PROJECT_DIR$/app/src/Components/Context" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms" />
+      <recent name="$PROJECT_DIR$/app/src/Components/Context/Auth" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +82,8 @@
       <workItem from="1599780418477" duration="18204000" />
       <workItem from="1600027963972" duration="4200000" />
       <workItem from="1600370471265" duration="12609000" />
-      <workItem from="1600437638211" duration="1932000" />
+      <workItem from="1600437638211" duration="3041000" />
+      <workItem from="1600539629921" duration="582000" />
     </task>
     <servers />
   </component>
@@ -137,11 +127,11 @@
       <screen x="0" y="23" width="1024" height="617" />
     </state>
     <state width="824" height="123" key="GridCell.Tab.0.right/0.23.1024.617@0.23.1024.617" timestamp="1599780393073" />
-    <state x="0" y="39" key="com.intellij.ide.util.TipDialog" timestamp="1600370471673">
+    <state x="0" y="39" key="com.intellij.ide.util.TipDialog" timestamp="1600539673815">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="0" y="34" key="com.intellij.ide.util.TipDialog/0.23.1024.617@0.23.1024.617" timestamp="1600030560656" />
-    <state x="0" y="39" key="com.intellij.ide.util.TipDialog/0.23.1600.877@0.23.1600.877" timestamp="1600370471673" />
+    <state x="0" y="39" key="com.intellij.ide.util.TipDialog/0.23.1600.877@0.23.1600.877" timestamp="1600539673815" />
     <state x="160" y="72" width="703" height="518" key="find.popup" timestamp="1600034411320">
       <screen x="0" y="23" width="1024" height="617" />
     </state>
