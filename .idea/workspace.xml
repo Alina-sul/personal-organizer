@@ -2,20 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/public/images/po001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/images/po01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/App.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/images/po001happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/images/po001wink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/Buttun.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/LoginForm/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/Components/pages/OnBoard" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +104,7 @@
       <workItem from="1600027963972" duration="4200000" />
       <workItem from="1600370471265" duration="12609000" />
       <workItem from="1600437638211" duration="3041000" />
-      <workItem from="1600539629921" duration="6988000" />
+      <workItem from="1600539629921" duration="22630000" />
     </task>
     <servers />
   </component>

@@ -11,14 +11,13 @@ router.get('/register', function(req, res) {
     });
 
 router.post('/register', function(req, res, next) {
-    Account.register(new Account({username: req.body.username, test:'kaki'}), req.body.password, function(err) {
+    Account.register(new Account({username: req.body.username, email:req.body.email}), req.body.password, function(err) {
         if (err) {
             console.log('error while user register!', err);
             return next(err);
         }
 
         console.log('user registered!');
-
         res.status(200).send('user registered!');
     });
 });

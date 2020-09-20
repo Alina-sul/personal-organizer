@@ -1,6 +1,7 @@
 .main {
   text-align: center;
   margin: 7%;
+  color: white;
 }
 
 .welcome-text {
@@ -12,15 +13,6 @@
 
 .links {
   letter-spacing: 6px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-a:hover {
-  color: black;
 }
 
 /*# sourceMappingURL=Welcome.css.map */

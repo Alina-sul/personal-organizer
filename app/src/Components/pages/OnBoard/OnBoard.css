@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+label {
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+a, .bot-line {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover, .bot-line:hover {
+  color: black;
+  border-color: black;
+}
+
+.desc-anim {
+  animation-name: inline-upte55m;
+  animation-duration: 3s;
+}
+@keyframes inline-upte55m {
+  from {
+    color: #c84c8d;
+  }
+  to {
+    color: white;
+  }
+}
+
+.desc-txt {
+  width: 400px;
+  margin: auto;
+  letter-spacing: 0.5px;
+  display: block;
+  color: white;
+}
+
+.bot-line {
+  display: block;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 5px;
+  margin: 2% auto auto;
+  cursor: pointer;
+}
+
+.sign-up-form {
+  background: white;
+  width: 40%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.MuiTextField-root {
+  width: 100%;
+  margin-top: 0.5rem !important;
+}
+
+.MuiFilledInput-input {
+  text-align: center;
+  padding: 10px !important;
+  font-size: 18px;
+}
+
+.msg {
+  color: #d80e74;
+  font-size: 14px;
+}
+
+.field {
+  margin: 1.5rem 0;
+}
+
+/*# sourceMappingURL=OnBoard.css.map */

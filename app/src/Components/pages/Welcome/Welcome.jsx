@@ -5,7 +5,7 @@ function Welcome(props) {
     return (
         <>
         <div className="main">
-            <img src="images/po001.png" height="100"/>
+            <img src="images/po001.png" height="100" alt="po"/>
                 <h1 className="welcome-text">Hi I'm <span style={{color:'black'}}>PO</span>.</h1>
 
             <p className="links">

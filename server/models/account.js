@@ -7,7 +7,7 @@ const mongoose = require('mongoose'),
 const Account = new Schema({
     username: String,
     password: String,
-    test: String
+    email: String
 });
 
 Account.plugin(passportLocalMongoose);
