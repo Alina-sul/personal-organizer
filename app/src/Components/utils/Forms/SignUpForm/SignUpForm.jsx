@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import * as Yup from 'yup';
@@ -7,20 +7,29 @@ import {
     Formik, Form, Field, ErrorMessage,
 } from 'formik';
 import PropTypes from "prop-types";
-import Description from "../Description";
+import {Context} from "../../../Context/Auth";
 
 function SignUpForm({setStage}) {
+
+    const authContext = useContext(Context);
 
     return (
         <>
             <div className="sign-up-form">
                 <Formik
-                    initialValues={{ username: '', email: '', password: '' }}
+                    initialValues={{ username: '', email: '', password: '', passwordConfirmation: '' }}
                     onSubmit={(values) => {
                         axios.post('http://localhost:3030/register', values)
                             .then((resp) => {
-                                resp.status === 200 ? setStage(2)
-                                    : console.log(resp)
+
+                                 if (resp.status === 200) {
+                                     authContext.setAuth({
+                                         auth: true,
+                                         userId: resp.data._id
+                                     });
+                                     setStage(2);
+
+                                 }
                             }
                         );
 
@@ -55,7 +64,7 @@ function SignUpForm({setStage}) {
                                 <TextField
                                     type="username"
                                     name="username"
-                                    variant="filled"
+                                    variant="outlined"
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.username}
@@ -70,7 +79,7 @@ function SignUpForm({setStage}) {
                                 <TextField
                                     type="email"
                                     name="email"
-                                    variant="filled"
+                                    variant="outlined"
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.email}
@@ -85,7 +94,7 @@ function SignUpForm({setStage}) {
                                 <TextField
                                     type="password"
                                     name="password"
-                                    variant="filled"
+                                    variant="outlined"
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.password}
@@ -99,7 +108,7 @@ function SignUpForm({setStage}) {
                                 <TextField
                                     type="password"
                                     name="passwordConfirmation"
-                                    variant="filled"
+                                    variant="outlined"
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.passwordConfirmation}

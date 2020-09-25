@@ -11,14 +11,15 @@ router.get('/register', function(req, res) {
     });
 
 router.post('/register', function(req, res, next) {
-    Account.register(new Account({username: req.body.username, email:req.body.email}), req.body.password, function(err) {
+    const user = new Account({username: req.body.username, email:req.body.email});
+
+    Account.register(user, req.body.password, function(err) {
         if (err) {
             console.log('error while user register!', err);
             return next(err);
         }
-
         console.log('user registered!');
-        res.status(200).send('user registered!');
+        res.status(200).send(user);
     });
 });
 
@@ -39,6 +40,15 @@ router.get('/logout', function(req, res) {
 router.get('/ping', function(req, res){
         res.send("pong!", 200);
     });
+
+router.get('/schedule', function (req,res) {
+        res.send('sup boi')
+});
+
+router.post('/schedule', function (req,res) {
+        console.log(req.body);
+        res.send('sup gal')
+});
 
 
 module.exports = router;

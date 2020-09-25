@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/public/images/po001happy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/images/po001wink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/Buttun.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/Welcome/Welcome.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/Context/Auth/Provider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Context/Auth/Provider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/ScheduleForm/ScheduleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +32,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hL7xIPZ9R2wU2kRRroK3yWO7cM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/Components/pages/OnBoard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,17 +64,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/Components/pages/OnBoard" />
+      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm" />
+      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms" />
+      <recent name="$PROJECT_DIR$/app/src/Components/pages/OnBoard/ScheduleForm/TypeForm" />
+      <recent name="$PROJECT_DIR$/app/public/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm" />
+      <recent name="$PROJECT_DIR$/app/src/Components/pages/OnBoard" />
       <recent name="$PROJECT_DIR$/app/public/images" />
       <recent name="$PROJECT_DIR$/app/src/Components/Context/Data" />
       <recent name="$PROJECT_DIR$/app/src/Components/Context" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/public/images" />
-      <recent name="$PROJECT_DIR$/app/public" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/app/src/Components/utils/Forms" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -104,7 +106,9 @@
       <workItem from="1600027963972" duration="4200000" />
       <workItem from="1600370471265" duration="12609000" />
       <workItem from="1600437638211" duration="3041000" />
-      <workItem from="1600539629921" duration="22630000" />
+      <workItem from="1600539629921" duration="24211000" />
+      <workItem from="1600716281451" duration="4147000" />
+      <workItem from="1600724138656" duration="8802000" />
     </task>
     <servers />
   </component>
@@ -156,11 +160,11 @@
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="0" y="101" width="1497" height="799" key="SettingsEditor/0.23.1600.877@0.23.1600.877" timestamp="1600542446121" />
-    <state x="0" y="39" key="com.intellij.ide.util.TipDialog" timestamp="1600539673815">
+    <state x="0" y="39" key="com.intellij.ide.util.TipDialog" timestamp="1600716282923">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="0" y="34" key="com.intellij.ide.util.TipDialog/0.23.1024.617@0.23.1024.617" timestamp="1600030560656" />
-    <state x="0" y="39" key="com.intellij.ide.util.TipDialog/0.23.1600.877@0.23.1600.877" timestamp="1600539673815" />
+    <state x="0" y="39" key="com.intellij.ide.util.TipDialog/0.23.1600.877@0.23.1600.877" timestamp="1600716282923" />
     <state x="160" y="72" width="703" height="518" key="find.popup" timestamp="1600034411320">
       <screen x="0" y="23" width="1024" height="617" />
     </state>

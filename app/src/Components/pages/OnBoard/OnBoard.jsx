@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import Description from "./Description";
-import SignUpForm from "./SignUpForm";
+import SignUpForm from "../../utils/Forms/SignUpForm";
 import './OnBoard.css';
+import ScheduleForm from "../../utils/Forms/ScheduleForm";
 
 function OnBoard(props) {
-    const [stage, setStage] = useState(1);
+    const [stage, setStage] = useState(2);
         return (
         <>
             {
@@ -13,7 +14,7 @@ function OnBoard(props) {
                 stage === 1 ?
                     <SignUpForm setStage={setStage}/> :
                 stage === 2 ?
-                    <SignUpForm setStage={setStage}/> : null
+                    <ScheduleForm setStage={setStage}/> : null
             }
 
         </>
