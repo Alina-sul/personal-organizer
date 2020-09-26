@@ -35,10 +35,10 @@ a:hover, .bot-line:hover {
 }
 
 .desc-anim {
-  animation-name: inline-uspf2jl;
+  animation-name: inline-ux3iv3c;
   animation-duration: 3s;
 }
-@keyframes inline-uspf2jl {
+@keyframes inline-ux3iv3c {
   from {
     color: #c84c8d;
   }
@@ -91,6 +91,22 @@ a:hover, .bot-line:hover {
 
 .field {
   margin: 1.5rem 0;
+}
+
+.field-note a {
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  display: block;
+  color: #c84c8d;
+  margin-bottom: 1rem;
+}
+
+.MuiInputLabel-outlined {
+  transform: translate(14px, 3px) scale(1) !important;
+}
+
+.MuiInputLabel-shrink {
+  transform: translate(14px, -15px) scale(0.75) !important;
 }
 
 /*# sourceMappingURL=OnBoard.css.map */

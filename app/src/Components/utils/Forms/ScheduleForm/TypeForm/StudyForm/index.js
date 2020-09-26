@@ -1,2 +1,7 @@
-import StudyForm from "./StudyForm";
-export default StudyForm;
+import {CoursesList} from './StudyForm';
+
+const studyForm = {
+    coursesList: CoursesList
+};
+
+export default studyForm;

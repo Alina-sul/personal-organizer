@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/Context/Auth/Provider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/Context/Auth/Provider.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/ScheduleForm/ScheduleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/SignUpForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/SignUpForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +93,7 @@
       <workItem from="1600437638211" duration="3041000" />
       <workItem from="1600539629921" duration="24211000" />
       <workItem from="1600716281451" duration="4147000" />
-      <workItem from="1600724138656" duration="8802000" />
+      <workItem from="1600724138656" duration="20012000" />
     </task>
     <servers />
   </component>
@@ -130,11 +115,11 @@
       <screen x="0" y="23" width="1024" height="617" />
     </state>
     <state x="111" y="23" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1024.617@0.23.1024.617" timestamp="1599780564419" />
-    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600544556400">
+    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601074929559">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="250" y="85" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1024.617@0.23.1024.617" timestamp="1599843907590" />
-    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877@0.23.1600.877" timestamp="1600544556400" />
+    <state x="391" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1600.877@0.23.1600.877" timestamp="1601074929559" />
     <state x="134" y="148" key="EditFileWatcherDialog" timestamp="1600544590006">
       <screen x="0" y="23" width="1600" height="877" />
     </state>

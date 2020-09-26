@@ -1,5 +1,5 @@
 import React, {useContext,useState,useEffect} from 'react';
-import {Formik} from "formik";
+import {Field, Form, Formik} from "formik";
 import axios from "axios";
 import * as Yup from "yup";
 import TextField from "@material-ui/core/TextField";
@@ -7,16 +7,14 @@ import Button from "@material-ui/core/Button";
 import PropTypes from "prop-types";
 import Select from '@material-ui/core/Select';
 
-function StudyForm(props) {
-
-
-    return (
-        <>
-        </>
+const CoursesList = ({ values }) => (
+        <Form className="courses-list">
+            {console.log(values)}
+            <TextField name="name"  label="Course Name" variant="outlined" />
+            <TextField name="credit"  label="Credits" variant="outlined" />
+        </Form>
     );
-}
 
-StudyForm.propTypes = {
-    setStage: PropTypes.func
-};
-export default StudyForm;
+
+
+export {CoursesList};
