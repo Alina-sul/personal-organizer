@@ -18,6 +18,7 @@ const MySelect = ({ field, insert, remove, push, ...props }) => {
         type="select"
         variant="outlined"
         {...field}
+        {...props}
         fullWidth
     >
 
@@ -63,7 +64,7 @@ function ScheduleForm(props) {
                         type: '',
                         courses: [
                             {
-                                name: '',
+                                courseName: '',
                                 credits: '',
                                 hoursWeek: 0,
                                 weekDay: '',
@@ -74,8 +75,7 @@ function ScheduleForm(props) {
                         ],
                         prefDays: [],
                         prefTime: [],
-                        hoursLimit: false,
-                        hoursAvail: 0
+                        hoursLimit: -1,
                     }}
                     onSubmit={(values) => {
                         // axios.post('http://localhost:3030/schedule', values)
@@ -89,72 +89,52 @@ function ScheduleForm(props) {
                     validationSchema={Yup.object().shape({
                         type: Yup.string()
                             .required('Required'),
-                        courses: Yup.array()
-                            .of(Yup.object()
-                            .shape({
-                                name: Yup.string()
-                                    .required('Required'),
-                                credits: Yup.number()
-                                    .required('Required'),
-                                hoursWeek: Yup.number(),
-                                weekDay: Yup.string(),
-                                startHour: Yup.string(),
-                                endHour: Yup.string(),
-                                priority: Yup.string(),
-                            }))
+                        // courses: Yup.array()
+                        //     .of(Yup.object()
+                        //     .shape({
+                        //         courseName: Yup.string()
+                        //             .required('Required'),
+                        //         credits: Yup.number()
+                        //             .required('Required'),
+                        //         hoursWeek: Yup.number(),
+                        //         weekDay: Yup.string(),
+                        //         startHour: Yup.string(),
+                        //         endHour: Yup.string(),
+                        //         priority: Yup.string(),
+                        //     }))
 
                     })}
                 >
                     {(props: FormikProps<any>)  => (
-
-                        <>
+                        <Form>
                             <div className="field">
                                 <label>What type of schedule do you need? </label>
                                 <Field name="type" component={MySelect} />
                             </div>
                             {
-                               props.values.type ?
-                                    <>
-                                       {
-                                           forms[props.values.type].map(x =>
-                                           {
-                                               console.log(props.values)
-                                               return <div key={`div-${x.name}`} className="field">
-                                               <label key={`label-${x.name}`}> {x.label} </label>
-                                                   {
-                                                       x.note ?
-                                                           <span key={`span-${x.name}`} className="field-note">
-                                                               {x.note}
-                                                           </span> : null
-                                                   }
-                                                   {
-                                                       typeof(x.name === 'courses') ?
-                                                           <FieldArray  key={`field-${x.name}`} name={x.name} component={x.component} /> :
-                                                           <Field key={`field-${x.name}`} name={x.name} component={x.component} />
-                                                   }
+                                props.values.type ?
 
-                                           </div>
-
-                                           }
-                                            )
-                                       }
-
-                                       <Button
-                                            type="submit"
-                                            size="large"
-                                            color="primary"
-                                            variant="contained"
-                                            style={{marginTop: 20}}
+                                        <>
+                                        {
+                                            props.values.type === 'study' ?
+                                                <FieldArray name="courses" component={studyForm.coursesList}/> :
+                                            props.values.type === 'workout' ?
+                                                <Field name="sports" component={studyForm.coursesList}/> : null
+                                        }
+                                            <Button
+                                                type="submit"
+                                                size="large"
+                                                color="primary"
+                                                variant="contained"
+                                                style={{marginTop: 20}}
                                             >
-                                            NEXT
-                                        </Button>
-                                    </>
-                                    : null
+                                                NEXT
+                                            </Button>
+                                        </> : null
+
 
                             }
-
-                        </>
-
+                        </Form>
                     )}
                 </Formik>
             </div>
