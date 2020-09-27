@@ -17,7 +17,7 @@ function Description({setStage}) {
                 I'm PO.<br/>
                 Your <b>Personal Organizer</b>.<br/>
                 I can assist you by creating <b>custom schedules</b>,
-                that will change and adapt according to your behavior. The goal is to achieve most suitable experience for you.
+                that will change and adapt according to your behavior. The goal is to achieve the most suitable experience for you.
             </div>
             <div>
                 {

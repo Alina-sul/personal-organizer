@@ -68,6 +68,7 @@ function SignUpForm({setStage}) {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.username}
+                                    fullWidth
                                 />
                                 <span className="msg">
                                   {errors.username && touched.username && errors.username}
@@ -83,6 +84,7 @@ function SignUpForm({setStage}) {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.email}
+                                    fullWidth
                                 />
                                 <span className="msg">
                                   {errors.email && touched.email && errors.email}
@@ -98,6 +100,7 @@ function SignUpForm({setStage}) {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.password}
+                                    fullWidth
                                 />
                                 <span className="msg">
                                     {errors.password && touched.password && errors.password}
@@ -112,6 +115,7 @@ function SignUpForm({setStage}) {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     value={values.passwordConfirmation}
+                                    fullWidth
                                 />
                                 <span className="msg">
                                      {errors.passwordConfirmation && touched.passwordConfirmation && errors.passwordConfirmation}

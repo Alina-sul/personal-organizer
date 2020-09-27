@@ -10,25 +10,7 @@ import studyForm from "./TypeForm/StudyForm";
 import WorkoutForm from "./TypeForm/WorkoutForm";
 import PropTypes from "prop-types";
 import {NavLink} from "react-router-dom";
-
-const MySelect = ({ field, insert, remove, push, ...props }) => {
-
-    return <Select
-        native
-        type="select"
-        variant="outlined"
-        {...field}
-        {...props}
-        fullWidth
-    >
-
-        <option aria-label="None" value="" />
-        <option value="study"> Study </option>
-        <option value="workout"> Workout </option>
-
-    </Select>
-
-};
+import {SelectComponent} from "../MaterialUiBased/FormComponents";
 
 
 function ScheduleForm(props) {
@@ -36,29 +18,10 @@ function ScheduleForm(props) {
     const [form, setForm] = useState('NOTHING');
     const context = useContext(Context);
 
-    const forms = {
-        study: [
-            {
-                name: 'courses',
-                label: 'Please list your courses:',
-                note: <NavLink to="/">
-                    'Total hours per week' and 'Existing schedule' are not mandatory.
-                    In case you have no prior preferences each course will obtain PO's default setup
-                </NavLink>,
-                component: studyForm.coursesList
-            }
-        ],
-        workout: [
-            {
-                name: 'sample2',
-                component: MySelect
-            }
-        ],
-    };
 
     return (
         <>
-            <div className="sign-up-form">
+            <div className="schedule-form">
                 <Formik
                     initialValues={{
                         type: '',
@@ -66,15 +29,21 @@ function ScheduleForm(props) {
                             {
                                 courseName: '',
                                 credits: '',
-                                hoursWeek: 0,
-                                weekDay: '',
-                                startHour: '',
-                                endHour: '',
+                                hoursWeek: '',
                                 priority: ''
                             },
                         ],
-                        prefDays: [],
-                        prefTime: [],
+                        existingSchedule: [
+                            {
+                                weekDay: '',
+                                startHour: '',
+                                endHour: ''
+                            }
+                        ],
+                        preferences: [{
+                            day: '',
+                            time: ''
+                        }],
                         hoursLimit: -1,
                     }}
                     onSubmit={(values) => {
@@ -102,14 +71,20 @@ function ScheduleForm(props) {
                         //         endHour: Yup.string(),
                         //         priority: Yup.string(),
                         //     }))
-
                     })}
                 >
                     {(props: FormikProps<any>)  => (
                         <Form>
                             <div className="field">
                                 <label>What type of schedule do you need? </label>
-                                <Field name="type" component={MySelect} />
+                                <Field name="type" component={SelectComponent} options={[
+                                    {
+                                        name: 'study'
+                                    },
+                                    {
+                                        name: 'workout'
+                                    }
+                                ]}/>
                             </div>
                             {
                                 props.values.type ?

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/FormComponents.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/Description/Description.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/SignUpForm/SignUpForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +98,7 @@
       <workItem from="1600437638211" duration="3041000" />
       <workItem from="1600539629921" duration="24211000" />
       <workItem from="1600716281451" duration="4147000" />
-      <workItem from="1600724138656" duration="25054000" />
+      <workItem from="1600724138656" duration="34253000" />
     </task>
     <servers />
   </component>
