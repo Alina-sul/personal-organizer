@@ -34,11 +34,15 @@ a:hover, .bot-line:hover {
   border-color: black;
 }
 
+.fullwidth {
+  width: 100%;
+}
+
 .desc-anim {
-  animation-name: inline-ug65sge;
+  animation-name: inline-ubt64vf;
   animation-duration: 3s;
 }
-@keyframes inline-ug65sge {
+@keyframes inline-ubt64vf {
   from {
     color: #c84c8d;
   }
@@ -81,7 +85,7 @@ a:hover, .bot-line:hover {
   font-size: 0.8rem;
 }
 
-.MuiTextField-root {
+.MuiTextField-root, .priority {
   margin-top: 1% !important;
 }
 
@@ -117,24 +121,33 @@ a:hover, .bot-line:hover {
 }
 
 .course-name {
-  width: 58%;
+  width: 54%;
 }
 
-.credits, .priority, .thw {
+.credits, .thw {
   width: 9%;
   margin-left: 1% !important;
+}
+
+.priority {
+  width: 13%;
+  margin-left: 1% !important;
+}
+.priority .MuiOutlinedInput-input {
+  text-align: left;
 }
 
 .thw {
   width: 14%;
 }
 
-.add-button {
-  margin-top: 2%;
-}
-
 .option {
   text-transform: capitalize;
+}
+
+.input-label {
+  z-index: 1;
+  background: white;
 }
 
 /*# sourceMappingURL=OnBoard.css.map */

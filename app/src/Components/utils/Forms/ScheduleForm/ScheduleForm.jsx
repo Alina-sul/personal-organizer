@@ -3,13 +3,9 @@ import {Context} from "../../../Context/Auth";
 import {Field, FieldArray, Form, Formik, FormikProps} from "formik";
 import axios from "axios";
 import * as Yup from "yup";
-import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
-import Select from '@material-ui/core/Select';
-import studyForm from "./TypeForm/StudyForm";
-import WorkoutForm from "./TypeForm/WorkoutForm";
+import CoursesList from "./utils/CoursesList";
 import PropTypes from "prop-types";
-import {NavLink} from "react-router-dom";
 import {SelectComponent} from "../MaterialUiBased/FormComponents";
 
 
@@ -77,7 +73,7 @@ function ScheduleForm(props) {
                         <Form>
                             <div className="field">
                                 <label>What type of schedule do you need? </label>
-                                <Field name="type" component={SelectComponent} options={[
+                                <Field name="type" component={SelectComponent}  className="fullwidth" options={[
                                     {
                                         name: 'study'
                                     },
@@ -92,9 +88,9 @@ function ScheduleForm(props) {
                                         <>
                                         {
                                             props.values.type === 'study' ?
-                                                <FieldArray name="courses" component={studyForm.coursesList}/> :
+                                                <FieldArray name="courses" component={CoursesList}/> :
                                             props.values.type === 'workout' ?
-                                                <Field name="sports" component={studyForm.coursesList}/> : null
+                                                <Field name="sports" component={CoursesList}/> : null
                                         }
                                             <Button
                                                 type="submit"

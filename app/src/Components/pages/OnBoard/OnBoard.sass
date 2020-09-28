@@ -41,6 +41,9 @@ a,.bot-line
 
 
 
+.fullwidth
+  width: 100%
+
 .desc-anim
   @include inline-animation(3s)
     from
@@ -74,11 +77,12 @@ a,.bot-line
 .schedule-form
   width: 50%
 
-.MuiTextField-root label
-  font-size: 0.8rem
-
-
 .MuiTextField-root
+  label
+    font-size: 0.8rem
+
+
+.MuiTextField-root,.priority
   margin-top: 1%!important
 
 .MuiOutlinedInput-input
@@ -108,17 +112,25 @@ a,.bot-line
   transform: translate(14px, -15px) scale(0.75)!important
 
 .course-name
-  width: 58%
+  width: 54%
 
-.credits,.priority,.thw
+.credits,.thw
   width: 9%
   margin-left: 1%!important
+
+.priority
+  width: 13%
+  margin-left: 1%!important
+  .MuiOutlinedInput-input
+    text-align: left
 
 .thw
   width: 14%
 
-.add-button
-  margin-top: 2%
 
 .option
   text-transform: capitalize
+
+.input-label
+  z-index: 1
+  background: white
