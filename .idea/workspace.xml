@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50db6e99-4681-4a00-ba98-8c93e00587a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/CoursesList/CoursesList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/Preferences/Preferences.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/Preferences/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/WorkoutForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/pages/OnBoard/OnBoard.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/FormComponents.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/FormComponents.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/MaterialUiBased/FormComponents/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/ScheduleForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/StudyForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/CoursesList/CoursesList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/StudyForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/CoursesList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/WorkoutForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/WorkoutForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/Preferences/Preferences.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/TypeForm/WorkoutForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/CoursesList/CoursesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/CoursesList/CoursesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/Preferences/Preferences.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/Preferences/Preferences.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/WorkoutForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/WorkoutForm.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Components/utils/Forms/ScheduleForm/utils/WorkoutForm/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1600437638211" duration="3041000" />
       <workItem from="1600539629921" duration="24211000" />
       <workItem from="1600716281451" duration="4147000" />
-      <workItem from="1600724138656" duration="39643000" />
+      <workItem from="1600724138656" duration="49612000" />
     </task>
     <servers />
   </component>

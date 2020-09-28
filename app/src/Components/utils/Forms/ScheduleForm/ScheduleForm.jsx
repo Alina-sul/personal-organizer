@@ -3,10 +3,12 @@ import {Context} from "../../../Context/Auth";
 import {Field, FieldArray, Form, Formik, FormikProps} from "formik";
 import axios from "axios";
 import * as Yup from "yup";
+import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import CoursesList from "./utils/CoursesList";
 import PropTypes from "prop-types";
 import {SelectComponent} from "../MaterialUiBased/FormComponents";
+import Preferences from "./utils/Preferences";
 
 
 function ScheduleForm(props) {
@@ -36,10 +38,10 @@ function ScheduleForm(props) {
                                 endHour: ''
                             }
                         ],
-                        preferences: [{
-                            day: '',
-                            time: ''
-                        }],
+                        preferences: {
+                            type: '',
+                            additional: []
+                        },
                         hoursLimit: -1,
                     }}
                     onSubmit={(values) => {
@@ -73,7 +75,7 @@ function ScheduleForm(props) {
                         <Form>
                             <div className="field">
                                 <label>What type of schedule do you need? </label>
-                                <Field name="type" component={SelectComponent}  className="fullwidth" options={[
+                                <Field name="type" component={SelectComponent}  type={'select'} className="fullwidth" options={[
                                     {
                                         name: 'study'
                                     },
@@ -92,15 +94,19 @@ function ScheduleForm(props) {
                                             props.values.type === 'workout' ?
                                                 <Field name="sports" component={CoursesList}/> : null
                                         }
-                                            <Button
-                                                type="submit"
-                                                size="large"
-                                                color="primary"
-                                                variant="contained"
-                                                style={{marginTop: 20}}
-                                            >
-                                                NEXT
-                                            </Button>
+
+                                            <FieldArray name="preferences" component={Preferences}/>
+                                            <div>
+                                                <Button
+                                                    type="submit"
+                                                    size="large"
+                                                    color="primary"
+                                                    variant="contained"
+                                                    style={{marginTop: 20}}
+                                                >
+                                                    NEXT
+                                                </Button>
+                                            </div>
                                         </> : null
 
 

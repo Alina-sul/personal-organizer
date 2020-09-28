@@ -1,2 +1,2 @@
-import {TextComponent,SelectComponent} from './FormComponents';
-export {TextComponent,SelectComponent};
+import {TextComponent,SelectComponent,RadioComponent} from './FormComponents';
+export {TextComponent,SelectComponent,RadioComponent};

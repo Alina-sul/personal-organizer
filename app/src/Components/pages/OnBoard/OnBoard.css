@@ -39,10 +39,10 @@ a:hover, .bot-line:hover {
 }
 
 .desc-anim {
-  animation-name: inline-ubt64vf;
+  animation-name: inline-upmo6a9;
   animation-duration: 3s;
 }
-@keyframes inline-ubt64vf {
+@keyframes inline-upmo6a9 {
   from {
     color: #c84c8d;
   }
@@ -141,6 +141,10 @@ a:hover, .bot-line:hover {
   width: 14%;
 }
 
+.add-button {
+  text-align: left;
+}
+
 .option {
   text-transform: capitalize;
 }
@@ -148,6 +152,10 @@ a:hover, .bot-line:hover {
 .input-label {
   z-index: 1;
   background: white;
+}
+
+.field-divider {
+  margin-top: 4%;
 }
 
 /*# sourceMappingURL=OnBoard.css.map */
