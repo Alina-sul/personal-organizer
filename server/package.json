@@ -20,7 +20,7 @@
     "morgan": "~1.9.1",
     "node-sass": "^4.14.1",
     "passport": "^0.4.1",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.4"
   },
   "devDependencies": {
     "bcrypt": "^5.0.0",
